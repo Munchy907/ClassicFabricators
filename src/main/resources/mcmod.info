@@ -1,0 +1,13 @@
+[{
+    "modid": "classicfabs",
+    "name": "Classic Fabricators",
+    "description": "Fabricate lava and oil from EU",
+    "version": "$version",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "authorList": ["Zumbio"],
+    "credits": "PowerCrystals, TehKrush, AtomicStryker, and Feanorith. For the original lava and oil fabricators and their textures, from their PowerConverters mod",
+    "logoFile": "",
+    "updateUrl": "",
+    "dependencies": ["Ic2 classic", "buildcraftenergy"]
+}]

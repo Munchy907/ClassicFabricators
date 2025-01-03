@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "classicfabs:blocks/lavafabSide",
+    "down": "classicfabs:blocks/lavafabTopBottom",
+    "up": "classicfabs:blocks/lavafabTopBottom",
+    "east": "classicfabs:blocks/lavafabSide",
+    "west": "classicfabs:blocks/lavafabSide",
+    "north": "classicfabs:blocks/lavafabSide",
+    "south": "classicfabs:blocks/lavafabSide"
+  }
+}

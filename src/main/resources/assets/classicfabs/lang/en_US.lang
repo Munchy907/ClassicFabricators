@@ -1,0 +1,7 @@
+#Tiles
+tile.lavafab.name=Lava Fabricator
+tile.oilfab.name=Oil Fabricator
+#Creative Tabs
+itemGroup.classicfabs=Classic Fabricators
+#Debug
+message.classicfabs.tank_contents=Tank contents: %s

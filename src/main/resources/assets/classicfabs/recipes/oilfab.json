@@ -1,0 +1,36 @@
+{
+  "result": {
+    "item": "classicfabs:oilfab"
+  },
+  "pattern": [
+    "igi",
+    "tet",
+    "imi"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "e": {
+      "item": "minecraft:tnt"
+    },
+    "t": {
+      "item": "buildcraftfactory:tank"
+    },
+    "m": {
+      "item": "ic2:blockmachinehv",
+      "data": 1
+    },
+    "g": {
+      "item": "buildcraftcore:gear_diamond"
+    },
+    "i": {
+      "item": "ic2:itemmisc",
+      "data": 257
+    }
+  },
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "classicfabs:oilfab"
+    }
+  ]
+}

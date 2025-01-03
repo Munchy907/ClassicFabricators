@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "classicfabs:blocks/oilfabSide",
+    "down": "classicfabs:blocks/oilfabTopBottom",
+    "up": "classicfabs:blocks/oilfabTopBottom",
+    "east": "classicfabs:blocks/oilfabSide",
+    "west": "classicfabs:blocks/oilfabSide",
+    "north": "classicfabs:blocks/oilfabSide",
+    "south": "classicfabs:blocks/oilfabSide"
+  }
+}
