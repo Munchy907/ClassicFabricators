@@ -21,6 +21,6 @@ public class ClassicFabricatorsConfig {
             "in the crafting recipe")
     public static Integer lavaFabricatorInternalTankSize = 32000;
     @Comment("Should the fabricators output if a fluid tank/pipe is attached? (Uses the same method as the buildcraft pump to achieve this)")
-    public static Boolean outputFluidAutomatically = false;
+    public static Boolean outputFluidAutomatically = true;
 
 }
