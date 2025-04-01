@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 //apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = "${mod_version}"
 group = 'com.zumbio.classicfabs' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'classicfabs'
 
@@ -92,6 +92,7 @@ dependencies {
     //compile(fg.deobf("mezz.jei:jei_1.12.2:4.13.1.220"))
     compile('curse.maven:hwyla-253449:2568751') //Hwyla
     compile('curse.maven:ic-242942:5554368') //IC2 Classic
+    //compile("curse.maven:bca-61811:3204475") // BuildCraft-All
     compile('curse.maven:bc-892913:5880716') // BC Remastered
 
     // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
