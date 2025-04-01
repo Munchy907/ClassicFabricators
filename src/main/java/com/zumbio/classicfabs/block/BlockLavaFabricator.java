@@ -1,9 +1,15 @@
 package com.zumbio.classicfabs.block;
 
 import com.zumbio.classicfabs.ClassicFabricators;
+import com.zumbio.classicfabs.config.ClassicFabricatorsConfig;
 import com.zumbio.classicfabs.tile.TileLavaFabricator;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockLavaFabricator extends BlockFabricator {
     public BlockLavaFabricator() {
@@ -15,6 +21,12 @@ public class BlockLavaFabricator extends BlockFabricator {
     @Override
     protected TileLavaFabricator getTE(World world, BlockPos pos) {
         return (TileLavaFabricator) world.getTileEntity(pos);
+    }
+
+    @Override
+    public void addInformation(ItemStack stack, @Nullable World player, List<String> tooltip, ITooltipFlag advanced) {
+        tooltip.add("Cost: " + ClassicFabricatorsConfig.lavaCostInEU + " EU/mB");
+        super.addInformation(stack, player, tooltip, advanced);
     }
 
 //    @Override
