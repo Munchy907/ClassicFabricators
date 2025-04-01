@@ -7,6 +7,6 @@ import static com.zumbio.classicfabs.config.ClassicFabricatorsConfig.oilFabricat
 
 public class TileOilFabricator extends TileFabricator{
     public TileOilFabricator() {
-        super(BCEnergyFluids.oil, oilCostInEu, oilCostInEu * 5, oilFabricatorInternalTankSize);
+        super(BCEnergyFluids.crudeOil[0], oilCostInEu, oilCostInEu * 5, oilFabricatorInternalTankSize);
     }
 }
