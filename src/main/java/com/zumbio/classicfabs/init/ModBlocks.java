@@ -41,7 +41,6 @@ public class ModBlocks {
         Iterator<Block> blockIterator = blocks.iterator();
         int meta = 0;
         while (blockIterator.hasNext()){
-            ClassicFabricators.getLogger().info("Item meta: " + meta);
             registerRender(blockIterator.next(), meta);
         }
 

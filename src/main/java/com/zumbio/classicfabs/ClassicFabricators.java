@@ -58,7 +58,7 @@ public class ClassicFabricators {
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
-        logger.info(lavaCostInEU);
+        //logger.info(lavaCostInEU);
     }
 
     public static Logger getLogger() {
